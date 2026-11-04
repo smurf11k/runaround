@@ -482,6 +482,28 @@
       .field p strong {
         color: #f0f5fa;
       }
+      .field .field-note {
+        display: flex;
+        align-items: flex-start;
+        gap: 7px;
+        margin-top: 10px;
+        color: #8fa1b5;
+        font-size: 12px;
+        line-height: 1.55;
+      }
+      .info-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex: 0 0 15px;
+        width: 15px;
+        height: 15px;
+        margin-top: 2px;
+        border: 1px solid #71869b;
+        border-radius: 50%;
+        color: #a9bacb;
+        font: 700 10px/1 "Manrope", sans-serif;
+      }
       .field .example {
         padding: 12px 14px;
         border-left: 2px solid #8fc8ee;

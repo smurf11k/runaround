@@ -564,9 +564,9 @@
         if (c.freq === undefined) return "";
         if (c.freq > 0) {
           const pct = ((c.freq / CORPUS_TOTAL) * 100).toFixed(1);
-          return `<section class="field"><h4>Tokens in the corpus</h4><p>This sense is attested <strong>${c.freq}</strong> times among the <strong>${CORPUS_TOTAL}</strong> occurrences of <em>run</em> collected by Gries (2006) — roughly <strong>${pct}%</strong> of all its uses. A <em>token</em> is one single occurrence of the word as it appears in running text; the ${CORPUS_TOTAL} tokens are the real sentences this map is drawn from.</p></section>`;
+          return `<section class="field"><h4>Tokens in the corpus</h4><p>This sense is attested <strong>${c.freq}</strong> times among the <strong>${CORPUS_TOTAL}</strong> occurrences of <em>run</em> collected by Gries (2006) — roughly <strong>${pct}%</strong> of all its uses.</p><p class="field-note"><span class="info-icon" aria-hidden="true">i</span><span>A <em>token</em> is one single occurrence of the word as it appears in running text; the ${CORPUS_TOTAL} tokens are the real sentences this map is drawn from.</span></p></section>`;
         }
-        return `<section class="field"><h4>Tokens in the corpus</h4><p>Not attested among the <strong>${CORPUS_TOTAL}</strong> occurrences of <em>run</em> collected by Gries (2006). A <em>token</em> is one single occurrence of the word as it appears in running text; this sense is recorded in the dictionaries, but it did not surface in that corpus sample.</p></section>`;
+        return `<section class="field"><h4>Tokens in the corpus</h4><p>Not attested among the <strong>${CORPUS_TOTAL}</strong> occurrences of <em>run</em> collected by Gries (2006).</p><p class="field-note"><span class="info-icon" aria-hidden="true">i</span><span>A <em>token</em> is one single occurrence of the word as it appears in running text; this sense is recorded in the dictionaries, but it did not surface in that corpus sample.</span></p></section>`;
       }
 
       function selectNode(d) {
