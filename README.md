@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 # runaround
 
 runaround is an interactive D3.js visualization of the different meanings and
